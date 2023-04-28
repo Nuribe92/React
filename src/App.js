@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var nombre = "Nestor Uribe";
+  var presentacion = <h2>Hola Mundo soy {nombre}</h2>
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {alert("Hola soy")}
+        {presentacion}
         <a
           className="App-link"
           href="https://reactjs.org"
