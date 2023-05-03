@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MensajeEstatico from './mensajeEstatico';
 
 function App() {
   var nombre = "Nestor Uribe";
@@ -13,6 +14,7 @@ function App() {
         </p>
         {alert("Hola soy")}
         {presentacion}
+        <MensajeEstatico/>
         <a
           className="App-link"
           href="https://reactjs.org"
