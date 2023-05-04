@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import MensajeEstatico from './mensajeEstatico';
+import Footer from './Footer';
 
 function App() {
   var nombre = "Nestor Uribe";
   var presentacion = <h2>Hola Mundo soy {nombre}</h2>
   return (
+    <div>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,6 +17,7 @@ function App() {
         {alert("Hola soy")}
         {presentacion}
         <MensajeEstatico/>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -25,6 +28,10 @@ function App() {
         </a>
       </header>
     </div>
+    <Footer />
+    </div>
+
+  
   );
 }
 
